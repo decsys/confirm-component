@@ -18,7 +18,7 @@ storiesOf("Confirm", module)
         Confirm.params.label.defaultValue
       )}
       initialChecked={false}
-      actions={actions}
+      {...actions}
     />
   ))
   .add("Initially Checked", () => (
@@ -28,6 +28,6 @@ storiesOf("Confirm", module)
         Confirm.params.label.defaultValue
       )}
       initialChecked={true}
-      actions={actions}
+      {...actions}
     />
   ));

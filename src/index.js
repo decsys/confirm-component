@@ -4,17 +4,17 @@ import { FormCheck, Checkbox, FormCheckLabel } from "@smooth-ui/core-sc";
 import paramTypes, { setParams } from "@decsys/param-types/";
 import { Check } from "styled-icons/fa-solid/Check";
 
-const Confirm = ({ label, initialChecked, actions }) => {
-  useEffect(() => actions.setNextEnabled(false), []);
+const Confirm = ({ label, initialChecked, setNextEnabled, logResults }) => {
+  useEffect(() => setNextEnabled(false), []);
 
   const [checked, setChecked] = useState(initialChecked);
 
   const id = new Date().getTime();
 
   const handleChange = e => {
-    actions.logResults(e.target.checked);
+    logResults(e.target.checked);
     setChecked(e.target.checked);
-    actions.setNextEnabled(e.target.checked);
+    setNextEnabled(e.target.checked);
   };
 
   return (
