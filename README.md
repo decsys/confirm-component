@@ -16,7 +16,7 @@ The typical intended use of this component is for asking a Participant to Accept
 
 This software is primarily licensed under the **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`)
 
-    DECSYS Ellipse Component
+    DECSYS Confirmation Component
     Copyright (C) 2019
 
     This program is free software: you can redistribute it and/or modify
