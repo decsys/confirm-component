@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/decsys/confirmation-component.svg)
+[![Build Status](https://dev.azure.com/UniversityOfNottingham/DECSYS/_apis/build/status/decsys.confirmation-component?branchName=master)](https://dev.azure.com/UniversityOfNottingham/DECSYS/_build/latest?definitionId=170&branchName=master)
 ![GitHub release](https://img.shields.io/github/release/decsys/confirmation-component.svg)
 
 # DECSYS Confirm Component
