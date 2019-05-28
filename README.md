@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/decsys/confirmation-component.svg)
+![GitHub release](https://img.shields.io/github/release/decsys/confirmation-component.svg)
+
 # DECSYS Confirm Component
 
 This is a simple component that requires a Survey Participant to check a labelled checkbox to proceed.
