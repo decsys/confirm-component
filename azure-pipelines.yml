@@ -50,4 +50,4 @@ stages:
                     releaseNotesSource: input
                     releaseNotes: '`// TODO`'
                     isDraft: true
-                    assets: dist/*.js
+                    assets: $(Pipeline.Workspace)/dist/*.js
