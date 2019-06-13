@@ -26,7 +26,7 @@ storiesOf("Component", module)
         Component.params.label.label,
         Component.params.label.defaultValue
       )}
-      checked={true}
+      confirmed={true}
       {...actions}
     />
   ));

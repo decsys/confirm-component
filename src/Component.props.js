@@ -11,7 +11,7 @@ const params = {
 
 // Specify PropTypes for non-Configurable Props
 const staticPropTypes = {
-  initialChecked: PropTypes.bool,
+  confirmed: PropTypes.bool,
   logResults: PropTypes.func.isRequired,
   setNextEnabled: PropTypes.func.isRequired
 };

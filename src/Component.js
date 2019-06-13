@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as props from "./Component.props";
 import { FormCheck, Checkbox, FormCheckLabel } from "@smooth-ui/core-sc";
 
-const Component = ({ label, checked: initialChecked, setNextEnabled, logResults }) => {
+const Component = ({ label, confirmed: initialChecked, setNextEnabled, logResults }) => {
   const [checked, setChecked] = useState(initialChecked);
   useEffect(() => setNextEnabled(!!checked), [checked])
 
