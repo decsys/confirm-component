@@ -4,13 +4,13 @@ import { FormCheck, Checkbox, FormCheckLabel } from "@smooth-ui/core-sc";
 
 const Component = ({ label, checked: initialChecked, setNextEnabled, logResults }) => {
   const [checked, setChecked] = useState(initialChecked);
+  useEffect(() => setNextEnabled(!!checked), [checked])
 
   const id = new Date().getTime();
 
   const handleChange = e => {
     logResults({ confirmed: e.target.checked });
     setChecked(e.target.checked);
-    setNextEnabled(e.target.checked);
   };
 
   return (
