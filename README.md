@@ -2,7 +2,7 @@
 [![Build Status](https://dev.azure.com/UniversityOfNottingham/DECSYS/_apis/build/status/decsys.confirmation-component?branchName=master)](https://dev.azure.com/UniversityOfNottingham/DECSYS/_build/latest?definitionId=170&branchName=master)
 [![GitHub release](https://img.shields.io/github/release/decsys/confirmation-component.svg)](https://github.com/decsys/confirmation-component/releases)
 
-# DECSYS Confirm Component
+# DECSYS Confirmation Component
 
 This is a simple component that requires a Survey Participant to check a labelled checkbox to proceed.
 
