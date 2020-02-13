@@ -1,7 +1,7 @@
 {
   "name": "@decsys/confirmation-component",
   "componentName": "Confirmation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Participant Confirmation component for the DECSYS Survey Platform",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
