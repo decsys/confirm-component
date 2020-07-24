@@ -8,6 +8,8 @@ This is a simple component that requires a Survey Participant to check a labelle
 
 The typical intended use of this component is for asking a Participant to Accept terms or Confirm they have read instructions.
 
+**This repository is for 1.x only. The code has since moved to the [main decsys monorepo](https://github.com/decsys/decsys).**
+
 # Installation
 
 - Download a distributable version from Github Releases
